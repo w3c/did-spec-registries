@@ -1,0 +1,20 @@
+{
+  "name": "did-spec-registries-tooling",
+  "version": "0.0.1",
+  "description": "DID Spec Registries tooling commands",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "ajv": "^8.6.3",
+    "js-yaml": "^4.1.0"
+  },
+  "scripts": {
+    "registry:validate": "node ./validate-registry.js",
+    "registry:generate:index": "node ./generate-index.js"
+  },
+  "author": "Manu Sporny <msporny@digitalbazaar.com> (https://manu.sporny.org/)",
+  "contributors": [
+    "Orie Steele (https://github.com/OR13)"
+  ],
+  "license": "W3C"
+}
