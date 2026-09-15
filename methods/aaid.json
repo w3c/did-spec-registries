@@ -1,7 +1,7 @@
 {
   "name": "aaid",
   "status": "registered",
-  "verifiableDataRegistry": "Web (HTTPS origin) - resolved from the agent's own A2A Agent Card or OAuth Client ID Metadata Document; no registry or ledger",
+  "verifiableDataRegistry": "Web (HTTPS origin) - resolved from an identity document the agent already publishes, selected by the DID's surface segment; no registry or ledger",
   "contactName": "shlee1223",
   "contactEmail": "nine01223@naver.com",
   "contactWebsite": "https://github.com/shlee1223/did-method-aaid/issues",
